@@ -1,13 +1,13 @@
-@import url(/css/navbar.css);
-@import url(/css/homepage.css);
-@import url(/css/about.css);
-@import url(/css/products.css);
-@import url(/css/buy-page.css);
-@import url(/css/contact.css);
-@import url(/css/footer.css);
-@import url(/css/tabletsize.css);
-@import url(/css/phonesize.css);
-@import url(/css/phonesizes.css);
+@import url(./css/navbar.css);
+@import url(./css/homepage.css);
+@import url(./css/about.css);
+@import url(./css/products.css);
+@import url(./css/buy-page.css);
+@import url(./css/contact.css);
+@import url(./css/footer.css);
+@import url(./css/tabletsize.css);
+@import url(./css/phonesize.css);
+@import url(./css/phonesizes.css);
 
 /* Global */
 :root {
