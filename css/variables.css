@@ -2,6 +2,26 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-primary: #7be447;
-  --color-secondary: #1f1f1f;
+	--main-color: #0a3641;
+	--secondary-color: #5a8691;
+	height: 100vh;
+}
+
+main {
+	font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.rainydays-main-button {
+	background-color: var(--main-color);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 25px;
+	font-size: 25px;
 }
