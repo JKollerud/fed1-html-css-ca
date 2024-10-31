@@ -1,7 +1,36 @@
-/* Use import to split up your CSS into manageable chunks */
-@import url("./reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
-@import url("./variables.css");
-/* Feel free to add as many of these imports as you need */
+@import url(/css/navbar.css);
+@import url(/css/homepage.css);
+@import url(/css/about.css);
+@import url(/css/products.css);
+@import url(/css/buy-page.css);
+@import url(/css/contact.css);
+@import url(/css/footer.css);
+@import url(/css/tabletsize.css);
+@import url(/css/phonesize.css);
+@import url(/css/phonesizes.css);
 
+/* Global */
+:root {
+	--main-color: #0a3641;
+	--secondary-color: #5a8691;
+	height: 100vh;
+}
+
+main {
+	font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.rainydays-main-button {
+	background-color: var(--main-color);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 25px;
+	font-size: 25px;
+}

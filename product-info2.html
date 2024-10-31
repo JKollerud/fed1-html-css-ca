@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="/css/styles.css" />
-		<title>Rainydays | Home</title>
+		<title>Rainydays | Product</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
 		<meta name="description" content="The Coolest Website around" />
@@ -35,69 +35,54 @@
 			<input type="checkbox" id="hamburger-menu" />
 			<nav id="navbar-items">
 				<ul>
-					<li><a href="index.html" class="active-navbarbutton">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="products.html">Products</a></li>
+					<li>
+						<a href="products.html" class="active-navbarbutton">Products</a>
+					</li>
 					<li><a href="checkout.html">Checkout</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 		<body>
-			<section class="homepage-first">
-				<img src="/assets/images/Hiking mountaintop.webp" />
-				<h1>Embrace Every Season With Style</h1>
-				<div class="paragraph-container">
-					<div>
-						<p class="column-paragraph-home">
-							No matter the weather, Rainydays keeps you looking your best.
+			<div class="product-info-card">
+				<div class="product-info-content">
+					<img
+						src="/assets/images/RainyDays_Jacket2.jpg"
+						alt="Grey raincoat with hex pattern"
+					/>
+					<div class="product-info-text">
+						<h2>Voyager</h2>
+						<p>Designed for journeys, from city streets to distant horizons.</p>
+						<p>
+							Introducing the StormGuard Pro, the ultimate raincoat engineered
+							for those who refuse to let the weather slow them down. Crafted
+							with advanced waterproof fabric, this coat can withstand up to
+							15,000 mm of water pressure, ensuring you stay completely dry even
+							in the heaviest downpours. Whether you're hiking through misty
+							mountains or commuting through city rainstorms, the StormGuard Pro
+							offers unmatched protection and breathability. Its lightweight
+							design allows for all-day wear, while the adjustable hood and
+							sealed seams keep moisture out, making it perfect for outdoor
+							adventures or everyday use. Stay dry, stay unstoppable.
 						</p>
-						<p class="column-paragraph-home">
-							From Tailored raincoats to versatile layers, our collection offers
-							timeless style and practical elegance for all conditions.
-						</p>
+						<p class="price-product">$110</p>
+						<input type="radio" id="small" name="radio" />
+						<label for="small">Small</label>
+						<input type="radio" id="medium" name="radio" />
+						<label for="medium">Medium</label>
+						<input type="radio" id="Large" name="radio" />
+						<label for="large">Large</label>
+						<input type="radio" id="xlarge" name="radio" />
+						<label for="xlarge">X-Large</label>
+						<div class="button-container1">
+							<a href="checkout-2.html" class="rainydays-main-button"
+								>Add to cart</a
+							>
+						</div>
 					</div>
-					<div>
-						<p class="column-paragraph-home">
-							Stay dry and look sharp with RainyWear.
-						</p>
-						<p class="column-paragraph-home">
-							From sleek jackets to adaptable outerwear, our collection blends
-							contemporary style with reliable protection, ready for any
-							forecast.
-						</p>
-					</div>
 				</div>
-				<div class="button-container1">
-					<a href="products.html" class="rainydays-main-button">Browse</a>
-				</div>
-			</section>
-			<section class="recommendations-section">
-				<h2>Rainydays recommendations</h2>
-				<a href="product-info1.html"
-					><img src="/assets/images/RainyDays_Jacket1.jpg"
-				/></a>
-				<a href="product-info3.html"
-					><img src="/assets/images/RainyDays_Jacket3.jpg"
-				/></a>
-				<a href="product-info2.html"
-					><img src="/assets/images/RainyDays_Jacket2.jpg"
-				/></a>
-				<a href="product-info7.html"
-					><img src="/assets/images/RainyDays_Jacket7.jpg"
-				/></a>
-			</section>
-			<section class="adventure-section-header">
-				<h2>Your Everyday Adventure Begins Here</h2>
-				<div class="adventure-section">
-					<img src="/assets/images/Couple hiking.jpg" />
-					<img src="/assets/images/Family.jpg" />
-					<img src="/assets/images/Mountaintop.jpg" />
-					<img src="/assets/images/Hiking 2.webp" />
-				</div>
-			</section>
-			<div class="button-container1 discover-button">
-				<a href="about.html" class="rainydays-main-button">Discover</a>
 			</div>
 			<footer class="footer">
 				<img

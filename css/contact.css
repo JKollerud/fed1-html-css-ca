@@ -1,0 +1,79 @@
+/* Contact */
+.contact-heading {
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.main-contact-container {
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.main-contact-container label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.main-contact-container input[type="text"],
+.main-contact-container input[type="email"],
+.main-contact-container textarea {
+	width: 100%;
+	max-width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"] {
+	border: none;
+	cursor: pointer;
+}
+
+textarea {
+	height: 150px;
+	resize: none;
+}
+
+.contact-info-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	width: 100%;
+	max-width: 600px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+/* Contact Success */
+.contact-success-heading {
+	text-align: center;
+	font-size: 30px;
+	padding: 18px;
+}
+
+.success-message-container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 15px;
+	border-radius: 8px;
+}
+
+.success-message-container p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 35px;
+}

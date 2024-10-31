@@ -1,0 +1,302 @@
+/* Tablet */
+@media only screen and (min-width: 676px) and (max-width: 1024px) {
+	/* Nav */
+	.navbar img {
+		width: 150px;
+		margin-left: 50px;
+	}
+
+	#navbar-items ul a {
+		font-size: 17px;
+		padding: 8px 8px;
+		border-radius: 25px;
+	}
+
+	#navbar-items ul {
+		list-style-type: none;
+		display: flex;
+		gap: 20px;
+	}
+	/*Homepage */
+	.homepage-first img {
+		width: 600px;
+	}
+
+	.homepage-first h1 {
+		font-size: 23px;
+		padding: 15px;
+	}
+
+	.paragraph-container {
+		gap: 10px;
+	}
+
+	.column-paragraph-home {
+		max-width: 200px;
+		font-size: 13px;
+	}
+
+	.rainydays-main-button {
+		padding: 8px 20px;
+		font-size: 15px;
+	}
+
+	.recommendations-section {
+		margin: 50px auto;
+		font-size: 14px;
+	}
+
+	.recommendations-section img {
+		width: 100px;
+	}
+
+	.adventure-section-header h2 {
+		font-size: 19px;
+	}
+
+	.adventure-section {
+		gap: 10px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.discover-button {
+		margin-bottom: 50px;
+	}
+	/* Footer */
+	.footer-logo {
+		margin-left: 40px;
+		width: 150px;
+	}
+
+	.footer i {
+		font-size: 20px;
+	}
+
+	.footer-columns {
+		margin-left: 50px;
+	}
+
+	.footer-columns h3 {
+		font-size: 12px;
+	}
+
+	.footer-columns p {
+		font-size: 10px;
+	}
+
+	/* About */
+	.about-homepage img {
+		width: 600px;
+	}
+
+	.about-text {
+		bottom: 25px;
+		right: 200px;
+		font-size: 14px;
+	}
+
+	.about-heading {
+		font-size: 19px;
+	}
+
+	.about-columns {
+		margin-top: 5px;
+		max-width: 600px;
+		font-size: 14px;
+	}
+
+	.last-column {
+		margin-bottom: 50px;
+	}
+
+	/* Products */
+	.product-heading {
+		font-size: 22px;
+	}
+
+	.product-container {
+		max-width: 600px;
+		margin-bottom: 50px;
+	}
+
+	.product-item {
+		margin: 10px;
+		padding: 15px;
+	}
+
+	.product-image {
+		width: 125px;
+		margin-right: 25px;
+	}
+
+	/* Checkout */
+	.checkout-heading {
+		font-size: 25px;
+	}
+
+	.checkout-empty-container {
+		margin-bottom: 400px;
+	}
+
+	.checkout-empty-container p {
+		font-size: 13px;
+	}
+
+	/* Contact */
+	.contact-heading {
+		font-size: 22px;
+	}
+
+	.main-contact-container {
+		max-width: 350px;
+	}
+
+	.contact-form {
+		gap: 10px;
+	}
+
+	textarea {
+		height: 125px;
+	}
+
+	.contact-info-container {
+		gap: 20px;
+		max-width: 600px;
+		font-size: 80%;
+	}
+
+	/* Contact Success */
+	.contact-success-heading {
+		font-size: 25px;
+	}
+
+	.success-message-container {
+		max-width: 400px;
+	}
+
+	.success-message-container p {
+		font-size: 1rem;
+		line-height: 1.6;
+		margin-bottom: 35px;
+	}
+
+	/* Product info details */
+	.product-info-card {
+		max-width: 600px;
+		margin-bottom: 50px;
+	}
+
+	.product-info-card img {
+		width: 150px;
+	}
+
+	.product-info-text h2 {
+		font-size: 25px;
+	}
+
+	.product-info-text p {
+		font-size: 0.8rem;
+		line-height: 1.8;
+	}
+
+	.product-info-text label {
+		font-size: 1.1rem;
+	}
+
+	.product-info-text p.price-product {
+		font-size: 1.4rem;
+	}
+
+	/* Cart products added */
+	.cart-item {
+		max-width: 600px;
+	}
+
+	.cart-item h1 {
+		font-size: 25px;
+	}
+
+	.cart-item img {
+		width: 100px;
+		margin-top: -225px;
+	}
+
+	.cart-item p.price-product {
+		font-size: 1rem;
+	}
+
+	.cart-button-container {
+		margin-top: 125px;
+	}
+
+	.total-price {
+		font-size: 1.5rem;
+		margin-bottom: 50px;
+	}
+
+	/* Checkout */
+	/* Buy now page */
+	.checkout-container {
+		max-width: 500px;
+	}
+
+	.details-container {
+		flex-direction: column;
+	}
+
+	.checkout-container h1 {
+		font-size: 24px;
+	}
+
+	.checkout-container input[type="text"],
+	.checkout-container input[type="number"] {
+		width: 90%;
+		padding: 13px;
+		margin-bottom: 5px;
+		font-size: 0.7rem;
+	}
+
+	.checkout-container .price-product,
+	.checkout-container .total-price {
+		font-size: 1rem;
+	}
+
+	.total-container {
+		margin-top: 25px;
+	}
+
+	.icon-payment {
+		margin-bottom: 10px;
+		gap: 10px;
+	}
+
+	.btn {
+		width: 95%;
+		margin-bottom: 50px;
+	}
+
+	.product-checkout-cart p {
+		text-align: center;
+		padding: 10px;
+	}
+
+	/* Payment Successfull */
+	.payment-success-container {
+		max-width: 500px;
+	}
+
+	.payment-success-container h1 {
+		font-size: 24px;
+	}
+
+	.payment-success-container p {
+		font-size: 14px;
+		line-height: 2;
+		margin-bottom: 50px;
+	}
+
+	.payment-success-container {
+		margin-bottom: 125px;
+	}
+}

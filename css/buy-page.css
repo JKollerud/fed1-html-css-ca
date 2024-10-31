@@ -1,0 +1,159 @@
+/* Cart products added */
+.cart-item {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.cart-item h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.cart-item img {
+	width: 150px;
+	height: auto;
+	margin-right: 20px;
+	margin-top: -200px;
+}
+
+.cart-item p.price-product {
+	font-size: 1.5rem;
+	margin: 10px 0;
+}
+
+.cart-button-container {
+	display: flex;
+	gap: 10px;
+	margin-top: 125px;
+}
+
+#remove-item-button {
+	background-color: rgb(255, 121, 121);
+}
+
+.total-price {
+	font-size: 1.5rem;
+	color: #333;
+	font-weight: bold;
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+/* Buy now page */
+.checkout-container {
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.details-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.checkout-container h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.checkout-container input[type="text"],
+.checkout-container input[type="number"] {
+	width: 90%;
+	padding: 7px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 1rem;
+}
+
+.delivery-details,
+.payment-details,
+.cart-summary {
+	flex: 1;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.checkout-container .price-product,
+.checkout-container .total-price {
+	font-size: 1.5rem;
+}
+
+.total-container {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.icon-payment {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: left;
+	gap: 20px;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 75px;
+}
+
+.product-checkout-cart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #9a9a9a;
+	border-radius: 8px;
+}
+
+.product-checkout-cart p {
+	text-align: center;
+	padding: 10px;
+}
+
+.product-checkout-cart img {
+	width: 75px;
+	height: auto;
+	max-width: 100%;
+	margin: 10px 0;
+	border-radius: 15px;
+}
+
+/* Payment Successfull */
+.payment-success-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.payment-success-container h1 {
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.payment-success-container p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 94px;
+}
+
+/* Checkout */
+.checkout-heading {
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.checkout-empty-container {
+	text-align: center;
+	margin-bottom: 362px;
+}
