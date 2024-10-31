@@ -1,3 +1,4 @@
+@import url("../css/reset.css");
 /* Tablet */
 @media only screen and (min-width: 676px) and (max-width: 1024px) {
 	/* Nav */

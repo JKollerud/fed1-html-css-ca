@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="/css/styles.css" />
-		<title>Rainydays | Checkout</title>
+		<title>Rainydays | Contact</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
 		<meta name="description" content="The Coolest Website around" />
@@ -35,31 +35,62 @@
 			<input type="checkbox" id="hamburger-menu" />
 			<nav id="navbar-items">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="products.html">Products</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../about/about.html">About</a></li>
+					<li><a href="../products/products.html">Products</a></li>
 					<li>
-						<a href="checkout.html" class="active-navbarbutton">Checkout</a>
+						<a href="../checkout/checkout.html">Checkout</a>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="../contact/contact.html" class="active-navbarbutton"
+							>Contact</a
+						>
+					</li>
 				</ul>
 			</nav>
 		</header>
-		<body>
-			<section class="payment-success-container">
-				<h1>Thank you for your purchase!</h1>
-				<p>
-					Your order has been successfully placed with Rainydays. We're excited
-					to get your items ready and will send you an email confirmation with
-					your order details shortly. You can expect your package to arrive
-					within the estimated delivery time.
-				</p>
-				<p>
-					If you have any questions or need further assistance, feel free to
-					reach out to our support team. Thank you for choosing Rainydays—we
-					can't wait for you to enjoy your new purchase!
-				</p>
+		<body class="body-contact">
+			<h1 class="contact-heading">Contact</h1>
+			<section class="main-contact-container">
+				<form action="../contact/contact-success.html" class="contact-form">
+					<label for="fullname">Fullname</label>
+					<input
+						type="text"
+						id="fullname"
+						name="fullname"
+						placeholder="Your name..."
+					/>
+					<label for="email">Email</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Your email..."
+						required
+					/>
+					<label for="subject">Subject</label>
+					<textarea
+						id="subject"
+						name="subject"
+						placeholder="Write here..."
+					></textarea>
+					<div class="button-container1">
+						<input type="submit" value="Submit" class="rainydays-main-button" />
+					</div>
+				</form>
 			</section>
+			<div class="contact-info-container">
+				<section class="main-contact-container">
+					<h2>Mail</h2>
+					<p>Rainydays Norway AS</p>
+					<p>Rainydaysinfo@rainydays.com</p>
+				</section>
+				<section class="main-contact-container">
+					<h2>Customer service</h2>
+					<p>Norwegian: +47 55 55 51 23</p>
+					<p>International: (555) 555 - 1234</p>
+				</section>
+			</div>
 			<footer class="footer">
 				<img
 					src="/assets/images/RainyDays_Logo.png"
