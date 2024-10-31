@@ -193,6 +193,18 @@
 	background-color: #f9f9f9;
 }
 
+.delivery-details label {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.payment-details label {
+	display: flex;
+	gap: 8px;
+	align-items: flex-start;
+}
+
 .checkout-container .price-product,
 .checkout-container .total-price {
 	font-size: 1.5rem;
