@@ -620,3 +620,8 @@ textarea {
 .footer i:hover {
 	color: var(--text-color);
 }
+
+.footer a {
+	text-decoration: none;
+	color: var(--text-color);
+}
