@@ -3,13 +3,13 @@
 	<head>
 		<title>Rainydays | Product</title>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="The Coolest Website around" />
 		<link rel="icon" type="image/png" href="RDfavicon/favicon-16x16.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap"
 			rel="stylesheet" />
 		<link
 			rel="stylesheet"
@@ -18,29 +18,31 @@
 		<link rel="stylesheet" href="/CSS/styles.css" />
 		<link rel="stylesheet" href="/CSS/responsiveness.css" />
 	</head>
-	<main>
+	<body>
 		<header class="navbar">
-			<img src="Images/RainyDays_Logo.png" />
-			<label for="hamburger-menu" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
+			<a href="index.html">
+				<img src="Images/RainyDays_Logo.png" alt="Rainy Days Logo" />
+			</a>
+			<label for="hamburger-menu" class="hamburger-icon">
+				<i class="fa-solid fa-bars"></i>
+			</label>
 			<input type="checkbox" id="hamburger-menu" />
 			<nav id="navbar-items">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li>
-						<a href="products.html" class="active-navbarbutton">Products</a>
-					</li>
+					<li><a href="products.html" class="active-navbarbutton">Products</a></li>
 					<li><a href="checkout.html">Checkout</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
-		<body>
-			<div class="product-info-card">
+		<main>
+			<article class="product-info-card">
 				<div class="product-info-content">
 					<img src="Images/RainyDays_Jacket1.jpg" alt="Orange and grey raincoat" />
 					<div class="product-info-text">
-						<h2>Explorer</h2>
+						<h1>Explorer</h1>
 						<p>For those who seek adventure, rain or shine.</p>
 						<p>
 							Introducing the StormGuard Pro, the ultimate raincoat engineered for those who refuse to let
@@ -53,50 +55,56 @@
 							unstoppable.
 						</p>
 						<p class="price-product">$100</p>
-						<input type="radio" id="small" name="radio" />
-						<label for="small">Small</label>
-						<input type="radio" id="medium" name="radio" />
-						<label for="medium">Medium</label>
-						<input type="radio" id="Large" name="radio" />
-						<label for="large">Large</label>
-						<input type="radio" id="xlarge" name="radio" />
-						<label for="xlarge">X-Large</label>
+						<form>
+							<fieldset>
+								<legend>Choose your size:</legend>
+								<input type="radio" id="small" name="size" />
+								<label for="small">Small</label>
+								<input type="radio" id="medium" name="size" />
+								<label for="medium">Medium</label>
+								<input type="radio" id="large" name="size" />
+								<label for="large">Large</label>
+								<input type="radio" id="xlarge" name="size" />
+								<label for="xlarge">X-Large</label>
+							</fieldset>
+						</form>
+
 						<div class="button-container1">
 							<a href="checkout-1.html" class="rainydays-main-button">Add to cart</a>
 						</div>
 					</div>
 				</div>
-			</div>
-			<footer class="footer">
-				<a href="index.html">
-					<img src="Images/RainyDays_Logo.png" alt="Rainy Days Logo" class="footer-logo" />
-				</a>
-				<div class="footer-columns">
-					<div class="footer-column">
-						<h3>Contact</h3>
-						<p>Rainydays Norway AS</p>
-						<p>Rainydaysinfo@rainydays.com</p>
-					</div>
-					<div class="footer-column">
-						<h3>Customer service</h3>
-						<p>FAQ</p>
-						<p>Terms & conditions</p>
-						<p>Size guides</p>
-					</div>
-					<div class="footer-column">
-						<h3>Follow us</h3>
-						<a href="https://www.instagram.com" target="_blank" rel="noopener">
-							<i class="fa fa-instagram"></i>
-						</a>
-						<a href="https://www.pinterest.com" target="_blank" rel="noopener">
-							<i class="fa fa-pinterest"></i>
-						</a>
-						<a href="https://www.facebook.com" target="_blank" rel="noopener">
-							<i class="fa fa-facebook"></i>
-						</a>
-					</div>
+			</article>
+		</main>
+		<footer class="footer">
+			<a href="index.html">
+				<img src="Images/RainyDays_Logo.png" alt="Rainy Days Logo" class="footer-logo" />
+			</a>
+			<div class="footer-columns">
+				<div class="footer-column">
+					<h3>Contact</h3>
+					<p>Rainydays Norway AS</p>
+					<p>Rainydaysinfo@rainydays.com</p>
 				</div>
-			</footer>
-		</body>
-	</main>
+				<div class="footer-column">
+					<h3>Customer service</h3>
+					<p>FAQ</p>
+					<p>Terms & conditions</p>
+					<p>Size guides</p>
+				</div>
+				<div class="footer-column">
+					<h3>Follow us</h3>
+					<a href="https://www.instagram.com" target="_blank" rel="noopener">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a href="https://www.pinterest.com" target="_blank" rel="noopener">
+						<i class="fa fa-pinterest"></i>
+					</a>
+					<a href="https://www.facebook.com" target="_blank" rel="noopener">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
